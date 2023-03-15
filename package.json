@@ -1,0 +1,29 @@
+{
+  "name": "expressjs-eslint-prettier",
+  "version": "1.0.0",
+  "description": "ESLint, Prettier & Airbnb Setup for expressjs Projects",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint --fix ."
+  },
+  "keywords": [],
+  "author": "MochYusuf",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
